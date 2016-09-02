@@ -1,0 +1,32 @@
+ul ,li{
+	text-decoration:none;
+	list-style-type: none;
+	display: block;
+}
+
+.panel
+{
+	
+	overflow: hidden;
+	height: 100%;
+	width: inherit;
+	text-align: center;
+	color:orange;
+	width:60%;
+	margin:50px auto;
+	/*background-color: transparent;*/
+}
+
+
+.question 
+{
+	float: left;
+	
+}
+#workExpValue
+{
+	text-align: center;
+	background-color: grey;
+	color:orange;
+	font-size: 20px;
+}
