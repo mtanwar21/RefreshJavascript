@@ -26,13 +26,19 @@
     	<div class="signupForm" id="signupForm">
          <h1>Sign Up</h1>
          <form>
-          <input class="input-box" type="text" name ="firstname" placeholder="Firstname">
+          <input class="input-box" type="text" id="fname" required  name ="firstname" placeholder="Firstname">
+          <span id="name-error" class="error-msg "></span>
           <br>
-          <input class="input-box" type="text" name="lastname" placeholder="Lastname">
+          <input class="input-box" type="text" id="lname" required name="lastname" placeholder="Lastname">
+          <span id="lastname-error" class="error-msg "></span>
           <br>
-          <input class="input-box" type="email" name="email" placeholder="Email">
+          <input class="input-box" type="email" id="email-id" name="email" placeholder="Email">
+          <span id="emailname-error" class="error-msg "></span>
           <br>
-          <input class="input-box" type="password" name="password" placeholder="Password">
+          <input class="input-box" type="password" id="pwd" name="password" placeholder="Password">
+          <span id="password-error" class="error-msg "></span>
+          <input class="input-box" type="text" name="tel" id="tel" placeholder="Contact number(xxx-xxx-xxxx)">
+          <span id="telephone-error" class="error-msg "></span>
          </form>
          <button class="signup-btn" type="button">SIGN UP</button>
     	</div>

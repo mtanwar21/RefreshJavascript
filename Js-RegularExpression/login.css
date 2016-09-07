@@ -107,7 +107,7 @@ margin: 20px ;
     margin-left: 15px;
     border: none;
     border-bottom: 2px solid #e1dde1;
-    color: #e1dde1;
+    color: #f68b7a;
     padding: 5px;
     text-decoration: none;
     margin-bottom: 15px;
@@ -236,4 +236,13 @@ top:150px;
 
 .loginForm.active {
     display: block;
+}
+.error-msg
+{
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-left: 20px;
+    
+}
 }
