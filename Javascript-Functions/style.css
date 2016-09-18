@@ -26,15 +26,12 @@ body ,html
 .mainFrame button
 {
 	margin-top:20px;
-
+	
 	text-align:  center;
 }
-#displayResult 
-#result
+.dispplayResult #result
 {
-	position: relative;
 	text-align: center;
 	width: 60%;
-	top:-100px;
-	
+	margin-top:50px;
 }

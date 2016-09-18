@@ -55,10 +55,10 @@ window.onload =function()
 
 		console.log("In It");
 		textCustomizer.setFontSize(fontSizeInp.value).setFontColor(fontColorInp.value).setFontFamily(fontFamilyInp[fontFamilyInp.selectedIndex].value);
-		document.getElementById("result").innerText =enteredText.value;
+		document.getElementById("displayResult").innerText =enteredText.value;
 
 
 
 	},false);
-};
+}
 
